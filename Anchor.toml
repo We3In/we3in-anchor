@@ -4,14 +4,14 @@
 seeds = false
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 contract = "7cBTgEf3vCgNqqp63wNAPFhXK2MDAsRz7co4kCtXJuNp"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "/home/bugra/.config/solana/id.json"
 
 [scripts]
